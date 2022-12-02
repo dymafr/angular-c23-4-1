@@ -1,0 +1,7 @@
+<mat-form-field>
+  <mat-select placeholder="Activité favorite">
+    <mat-option *ngFor="let activite of activites" [value]="activite">
+      {{ activite }}
+    </mat-option>
+  </mat-select>
+</mat-form-field>
